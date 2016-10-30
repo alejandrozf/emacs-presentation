@@ -1,0 +1,43 @@
+* EMACS para no EMACSers
+** Introducción
+*** Presentando a Emacs
+**** Acrónimos
+**** Historia y presentación oficial de GNU
+**** No Editor/wars
+**** Experiencia personal
+*** Objetivos
+Presentar "otras" características de Emacs 'únicas' o que quizá no son tan habituales de ver en el día a día en otros editores
+** Features "normales"
+*** Presentar mi configuración del día a día
+**** Agradecer al Ale Peralta :)
+**** Presentar las features en el propio proyecto actual
+** "Killer" features
+*** Builtin documentación y ayuda
+*** Builtin package manager
+*** Dired
+*** Magit
+*** Proced
+*** Tramp
+*** Frames/windows buffers
+*** Macros
+**** C-u # F4
+**** Save to init.el
+*** Org-mode
+*** Emacs Lisp
+**** Integración con todas las funciones
+**** Extensibilidad en todo momento
+**** Entorno de desarrollo en 4 etapas
+**** Byte-compiling
+**** Debugging
+*** Dos interfaces en una (consola y texto)
+*** Emacs client/server
+**** Emacs server
+**** emacs --daemon
+$ emacs --daemon
+$ emacsclient -c
+$ emacsclient -t
+*** Integración con procesos
+**** Ex: shells
+** Final
+*** Tetris
+*** Despedida
