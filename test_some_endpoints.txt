@@ -1,0 +1,25 @@
+
+# curl -H "Content-Type: application/json" -X POST -d '{"query":"QUERY-TEST", "category":"CCA"}' http://13.77.89.225/api/v1.0/correct_concept/
+
+
+# curl -H "Content-Type: application/json" -X POST -d '{"query":"solicita que se envia a su domicilio"}' http://13.77.89.225/api/v1.0/related_concepts
+
+# Main url server
+GET http://13.77.89.225
+
+# Main url local
+GET http://localhost:5000/
+
+# Endpoint 1: Adding labeled query to database
+
+POST http://13.77.89.225/api/v1.0/correct_concept/
+Content-Type: application/json
+
+{"query":"Quiero ver el saldo de mi tarjeta", "category":"CCA - Saldos Disponibles"}
+
+# Endpoint 2: Clasify query (also giving probabilities)
+
+POST http://13.77.89.225/api/v1.0/related_concepts
+Content-Type: application/json
+
+{"query":"solicita que se envia a su domicilio"}
