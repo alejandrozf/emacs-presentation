@@ -1,7 +1,8 @@
 #+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
 #+Title: EMACS para no EMACSers
-#+Author: Alejandro Zamora Fonseca
-#+Created:
+#+author:
+
+#+STARTUP: content
 
 #+OPTIONS: reveal_center:t reveal_progress:t reveal_history:nil reveal_control:t
 #+OPTIONS: reveal_rolling_links:t reveal_keyboard:t reveal_overview:t num:nil
@@ -62,16 +63,14 @@
 *** Entorno de desarrollo en 4 etapas
 *** Byte-compiling
 *** Debugging
-*** Emacs client/server
-*** Emacs server
-*** emacs --daemon
-$ emacs --daemon
-$ emacsclient -c
-$ emacsclient -t
+** Emacs server
+  - $ emacs --daemon
+  - $ emacsclient -c
+  - $ emacsclient -t
 ** Integración con procesos
-**** Ex: shells
+  - Ex: shells
 ** Restclient
-* Un gran etc.
+** Un gran etc.
   - https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html
 * Ocio
 * Gracias
