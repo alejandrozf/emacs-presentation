@@ -60,11 +60,9 @@
 ** Emacs Lisp
 *** init.el,
 *** Integración con todas las funciones
-*** Extensibilidad en todo momento
 *** Entorno de desarrollo en 4 etapas
 *** Byte-compiling
 *** Debugging
-*** Dos interfaces en una (consola y texto)
 *** Emacs client/server
 *** Emacs server
 *** emacs --daemon
