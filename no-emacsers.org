@@ -1,43 +1,80 @@
-* EMACS para no EMACSers
-** Introducción
-*** Presentando a Emacs
-**** Acrónimos
-**** Historia y presentación oficial de GNU
-**** No Editor/wars
-**** Experiencia personal
-*** Objetivos
-Presentar "otras" características de Emacs 'únicas' o que quizá no son tan habituales de ver en el día a día en otros editores
-** Features "normales"
-*** Presentar mi configuración del día a día
-**** Agradecer por mi configuración inicial
-**** Presentar las features en el propio proyecto actual
-** "Killer" features
-*** Builtin documentación y ayuda
-*** Builtin package manager
-*** Dired
-*** Magit
-*** Proced
-*** Tramp
-*** Frames/windows buffers, clones
-*** Macros
-**** C-u # F4
-**** Save to init.el
-*** Org-mode
-*** Emacs Lisp
-**** Integración con todas las funciones
-**** Extensibilidad en todo momento
-**** Entorno de desarrollo en 4 etapas
-**** Byte-compiling
-**** Debugging
+#+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
+#+Title: EMACS para no EMACSers
+#+Author: Alejandro Zamora Fonseca
+#+Created:
+
+#+OPTIONS: reveal_center:t reveal_progress:t reveal_history:nil reveal_control:t
+#+OPTIONS: reveal_rolling_links:t reveal_keyboard:t reveal_overview:t num:nil
+#+OPTIONS: reveal_width:1200 reveal_height:800
+#+OPTIONS: toc:0
+#+REVEAL_MARGIN: 0.1
+#+REVEAL_MIN_SCALE: 0.5
+#+REVEAL_MAX_SCALE: 2.5
+#+REVEAL_TRANS: cube
+#+REVEAL_THEME: moon
+#+REVEAL_HLEVEL: 2
+#+REVEAL_EXTRA_CSS: ./local.css
+
+* Introducción
+  - *EMACS* = "Eight Megabytes And Constantly Swapping" https://www.gnu.org/fun/jokes/gnuemacs.acro.exp.html \\
+  - Presentación oficial de GNU: "Emacs is the extensible, customizable, self-documenting real-time display editor" \\
+  - No Editor/wars please!!: \\
+  - Experiencia personal 1 \\
+* Mi configuración
+  - Experiencia personal 2 \\
+  - Gracias! \\
+  - https://github.com/alejandrozf/.emacs.d \\
+* Configuración en acción
+* Features "normales"
+  - Resaltado de sintaxis
+  - Resaltado de errores y estilo(PEP8)
+  - Soporte para múltiples lenguajes de programación
+  - Autocompletado
+  - HTML, CSS, JS, templates, ...
+  - Comandos de edición
+  - Búsqueda en bufferes abiertos, en directorios y archivos
+* Features "interesantes"
+** Frames/buffers, clones,
+  - Split
+  - Kill
+  - Clone
+  - Hide
+** TUI/GUI
+  - Emacs es practicamente el mismo en todos lados!
+** Builtin documentación y ayuda
+  - "C-h ?" te lleva a donde quieras
+** Builtin package manager
+  - Elpa, Melpa, marmalade
+** Dired
+  - Algo mas que un file browser ...
+** Magit
+  - Integración con la gran mayoría de las funciones de git
+** Proced
+  - Process explorer
+** Tramp
+  - Muchos protocolos en uno
+** Macros
+  - Tan solo F3 y F4
+** C-u # F4, C-u *
+** Org-mode
+** Emacs Lisp
+*** init.el,
+*** Integración con todas las funciones
+*** Extensibilidad en todo momento
+*** Entorno de desarrollo en 4 etapas
+*** Byte-compiling
+*** Debugging
 *** Dos interfaces en una (consola y texto)
 *** Emacs client/server
-**** Emacs server
-**** emacs --daemon
+*** Emacs server
+*** emacs --daemon
 $ emacs --daemon
 $ emacsclient -c
 $ emacsclient -t
-*** Integración con procesos
+** Integración con procesos
 **** Ex: shells
-** Final
-*** Tetris
-*** Despedida
+** Restclient
+* Un gran etc.
+  - https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html
+* Ocio
+* Gracias

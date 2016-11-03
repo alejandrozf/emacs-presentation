@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>EMACS para no EMACSers</title>
+<meta name="author" content="(Alejandro Zamora Fonseca)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/3.0.0/css/reveal.css"/>
+
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/3.0.0/css/theme/moon.css" id="theme"/>
+
+<link rel="stylesheet" href="./local.css"/>
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'http://cdn.jsdelivr.net/reveal.js/3.0.0/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">EMACS para no EMACSers</h1><h2 class="author">Alejandro Zamora Fonseca</h2><p class="date">Created: 2016-11-02 mié 23:46</p>
+</section>
+
+<section>
+<section id="slide-orgheadline1">
+<h2 id="orgheadline1">Introducción</h2>
+<ul>
+<li><b>EMACS</b> = "Eight Megabytes And Constantly Swapping" <a href="https://www.gnu.org/fun/jokes/gnuemacs.acro.exp.html">https://www.gnu.org/fun/jokes/gnuemacs.acro.exp.html</a> <br  /></li>
+<li>Presentación oficial de GNU: "Emacs is the extensible, customizable, self-documenting real-time display editor" <br  /></li>
+<li>No Editor/wars please!!: <br  /></li>
+<li>Experiencia personal 1 <br  /></li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline2">
+<h2 id="orgheadline2">Mi configuración</h2>
+<ul>
+<li>Experiencia personal 2 <br  /></li>
+<li>Gracias! <br  /></li>
+<li><a href="https://github.com/alejandrozf/.emacs.d">https://github.com/alejandrozf/.emacs.d</a> <br  /></li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline3">
+<h2 id="orgheadline3">Configuración en acción</h2>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline4">
+<h2 id="orgheadline4">Features "normales"</h2>
+<ul>
+<li>Resaltado de sintaxis</li>
+<li>Resaltado de errores y estilo(PEP8)</li>
+<li>Soporte para múltiples lenguajes de programación</li>
+<li>Autocompletado</li>
+<li>HTML, CSS, JS, templates, &#x2026;</li>
+<li>Comandos de edición</li>
+<li>Búsqueda en bufferes abiertos, en directorios y archivos</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline30">
+<h2 id="orgheadline30">Features "interesantes"</h2>
+<div class="outline-text-2" id="text-orgheadline30">
+</div></section>
+</section>
+<section>
+<section id="slide-orgheadline5">
+<h3 id="orgheadline5">Frames/buffers, clones,</h3>
+<ul>
+<li>Split</li>
+<li>Kill</li>
+<li>Clone</li>
+<li>Hide</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline6">
+<h3 id="orgheadline6">TUI/GUI</h3>
+<ul>
+<li>Emacs es practicamente el mismo en todos lados!</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline7">
+<h3 id="orgheadline7">Builtin documentación y ayuda</h3>
+<ul>
+<li>"C-h ?" te lleva a donde quieras</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline8">
+<h3 id="orgheadline8">Builtin package manager</h3>
+<ul>
+<li>Elpa, Melpa, marmalade</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline9">
+<h3 id="orgheadline9">Dired</h3>
+<ul>
+<li>Algo mas que un file browser &#x2026;</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline10">
+<h3 id="orgheadline10">Magit</h3>
+<ul>
+<li>Integración con la gran mayoría de las funciones de git</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline11">
+<h3 id="orgheadline11">Proced</h3>
+<ul>
+<li>Process explorer</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline12">
+<h3 id="orgheadline12">Tramp</h3>
+<ul>
+<li>Muchos protocolos en uno</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline13">
+<h3 id="orgheadline13">Macros</h3>
+<ul>
+<li>Tan solo F3 y F4</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline14">
+<h3 id="orgheadline14">C-u # F4, C-u *</h3>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline15">
+<h3 id="orgheadline15">Org-mode</h3>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline26">
+<h3 id="orgheadline26">Emacs Lisp</h3>
+<div class="outline-text-3" id="text-orgheadline26">
+</div></section>
+<section id="slide-orgheadline16">
+<h4 id="orgheadline16">init.el,</h4>
+</section>
+<section id="slide-orgheadline17">
+<h4 id="orgheadline17">Integración con todas las funciones</h4>
+</section>
+<section id="slide-orgheadline18">
+<h4 id="orgheadline18">Extensibilidad en todo momento</h4>
+</section>
+<section id="slide-orgheadline19">
+<h4 id="orgheadline19">Entorno de desarrollo en 4 etapas</h4>
+</section>
+<section id="slide-orgheadline20">
+<h4 id="orgheadline20">Byte-compiling</h4>
+</section>
+<section id="slide-orgheadline21">
+<h4 id="orgheadline21">Debugging</h4>
+</section>
+<section id="slide-orgheadline22">
+<h4 id="orgheadline22">Dos interfaces en una (consola y texto)</h4>
+</section>
+<section id="slide-orgheadline23">
+<h4 id="orgheadline23">Emacs client/server</h4>
+</section>
+<section id="slide-orgheadline24">
+<h4 id="orgheadline24">Emacs server</h4>
+</section>
+<section id="slide-orgheadline25">
+<h4 id="orgheadline25">emacs &#x2013;daemon</h4>
+<p>
+$ emacs &#x2013;daemon
+$ emacsclient -c
+$ emacsclient -t
+</p>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline28">
+<h3 id="orgheadline28">Integración con procesos</h3>
+<div class="outline-text-3" id="text-orgheadline28">
+</div><ul class="org-ul"><li><a id="orgheadline27"></a>Ex: shells<br  /></li></ul>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline29">
+<h3 id="orgheadline29">Restclient</h3>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline31">
+<h2 id="orgheadline31">Un gran etc.</h2>
+<ul>
+<li><a href="https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html">https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html</a></li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline32">
+<h2 id="orgheadline32">Ocio</h2>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline33">
+<h2 id="orgheadline33">Gracias</h2>
+</section>
+</section>
+</div>
+</div>
+<script src="http://cdn.jsdelivr.net/reveal.js/3.0.0/lib/js/head.min.js"></script>
+<script src="http://cdn.jsdelivr.net/reveal.js/3.0.0/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: true,
+keyboard: true,
+overview: true,
+width: 1200,
+height: 800,
+margin: 0.10,
+minScale: 0.50,
+maxScale: 2.50,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'cube', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>
